@@ -117,7 +117,7 @@ BEGIN
     AUTORADIOBUTTON "コンピュータはドッキングされています(&D)", IDC_HWPPROP_DOCKED, 22, 97, 260, 10
     AUTORADIOBUTTON "コンピューターはドッキングされていません(&U)", IDC_HWPPROP_UNDOCKED, 22, 109, 280, 10
     GROUPBOX "ハードウェア プロファイルの選択", IDC_STATIC, 10, 138, 192, 42
-    AUTOCHECKBOX "常にReactOSの起動時にオプションとしてこのプロファイルを含める", IDC_HWPPROP_INCLUDE, 17, 150, 264, 20, WS_GROUP | WS_TABSTOP | BS_MULTILINE
+    AUTOCHECKBOX "常に ReactOS の起動時にオプションとしてこのプロファイルを含める", IDC_HWPPROP_INCLUDE, 17, 150, 264, 20, WS_GROUP | WS_TABSTOP | BS_MULTILINE
 END
 
 IDD_COPYPROFILE DIALOGEX 12, 26, 256, 52
@@ -354,8 +354,8 @@ BEGIN
     IDS_USERPROFILE_ACCOUNT_DELETED "削除済みアカウント"
     IDS_USERPROFILE_TYPE_TEXT "%s がログオンしたら、システムはローミング プロファイルか、ローミング プロファイルのローカル キャッシュを使うべきです。"
     IDS_MESSAGEBOXTITLE "システム コントロール パネル アプレット"
-    IDS_WARNINITIALSIZE "ページングファイルの初期サイズの数値を入力して下さい。"
-    IDS_WARNMAXIMUMSIZE "ページングファイルの最大サイズの数値を入力して下さい。"
+    IDS_WARNINITIALSIZE "ページングファイルの初期サイズの数値を入力してください。"
+    IDS_WARNMAXIMUMSIZE "ページングファイルの最大サイズの数値を入力してください。"
     IDS_WARNINITIALRANGE "The initial paging file size must be between 2 MB and %lu MB on the selected drive."
     IDS_WARNMAXIMUMRANGE "The maximum paging file size must be larger than or equal to its initial size, and less than %lu MB on the selected drive."
     IDS_PAGEFILE_MB "%lu MB"

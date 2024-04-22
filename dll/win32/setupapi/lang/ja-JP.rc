@@ -18,7 +18,7 @@ STYLE DS_MODALFRAME | WS_CAPTION | WS_SYSMENU
 CAPTION "ファイルが必要です"
 FONT 9, "MS UI Gothic"
 BEGIN
-    LTEXT "製造元のインストールディスクを挿入し、下に正しいドライブが選択されていることを確認して下さい。", IDC_FILENEEDED, 10, 10, 175, 38, WS_CHILD | WS_VISIBLE | WS_GROUP
+    LTEXT "製造元のインストールディスクを挿入し、下に正しいドライブが選択されていることを確認してください。", IDC_FILENEEDED, 10, 10, 175, 38, WS_CHILD | WS_VISIBLE | WS_GROUP
     LTEXT "", IDC_INFO, 10, 50, 175, 38, WS_CHILD | WS_VISIBLE | WS_GROUP
     LTEXT "コピーしたい製造元のファイル:", IDC_COPYFROM, 10, 90, 175, 11, WS_CHILD | WS_VISIBLE | WS_GROUP
     CONTROL "", IDC_PATH, "COMBOBOX", WS_TABSTOP | WS_GROUP | WS_VSCROLL | WS_VISIBLE | CBS_DISABLENOSCROLL | CBS_AUTOHSCROLL | CBS_DROPDOWN, 10, 100, 175, 14
@@ -32,7 +32,7 @@ BEGIN
     IDS_PROMPTDISK   "%2 上のファイル '%1' が必要です"
     IDS_UNKNOWN      "未知"
     IDS_COPYFROM     "コピーしたいファイル:"
-    IDS_INFO         "ファイルがある場所のパスを入力し、OKをクリックして下さい。"
+    IDS_INFO         "ファイルがある場所のパスを入力し、OKをクリックしてください。"
 END
 
 STRINGTABLE

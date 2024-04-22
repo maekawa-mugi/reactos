@@ -35,7 +35,7 @@ BEGIN
     IDS_HOTPLUG_DRIVES " - ドライブ(%s)"
     IDS_HOTPLUG_A "A:"
     IDS_HOTPLUG_REQUIRES "このハードウェアは ""安全な取り外し"" が必要です"
-    IDS_HOTPLUG_CLICK "ハードウェアを取り除く前に、取り除くハードウェアを選択して、このアイコンをクリックして下さい。"
+    IDS_HOTPLUG_CLICK "ハードウェアを取り除く前に、取り除くハードウェアを選択して、このアイコンをクリックしてください。"
 
     //Volume related strings
     IDS_VOL_VOLUME "音量"

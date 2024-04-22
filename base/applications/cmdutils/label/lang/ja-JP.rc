@@ -7,7 +7,7 @@ LABEL [ドライブ:][ラベル]\n\n\
   ドライブ:        ドライブのドライブ文字を指定します。\n\
   ラベル           ドライブのラベルを指定します。"
     STRING_LABEL_TEXT1 "ドライブ %c: のボリューム ラベルは %s です\n"
-    STRING_LABEL_TEXT2 "ドライブ %c: にはボリューム ラベルがありませんl\n"
+    STRING_LABEL_TEXT2 "ドライブ %c: にはボリューム ラベルがありませ\nん"
     STRING_LABEL_TEXT3 "ボリューム シリアル番号は %04X-%04X\n です"
     STRING_LABEL_TEXT4 "ボリューム ラベルを 32 文字以内で入力してください。\n必要なければ Enter キーを押してください: "
     STRING_LABEL_PROMPT "現在のボリューム ラベルを削除しますか (はい:Y / いいえ:N)? "

@@ -142,7 +142,7 @@ BEGIN
     PUSHBUTTON       "上級者向け(&V)", IDC_CLASSICSTART_ADVANCED, 162, 49, 53, 14
     PUSHBUTTON       "並べ替え(&S)", IDC_CLASSICSTART_SORT, 162, 65, 53, 14
     ICON             IDI_RECYCLEBIN, IDC_STATIC, 20, 85, 20, 20
-    LTEXT            "最近アクセスした文書、プログラム、Webサイトの記録を消すには、[クリア] をクリックして下さい。", IDC_STATIC, 49, 85, 108, 33
+    LTEXT            "最近アクセスした文書、プログラム、Webサイトの記録を消すには、[クリア] をクリックしてください。", IDC_STATIC, 49, 85, 108, 33
     PUSHBUTTON       "クリア(&C)", IDC_CLASSICSTART_CLEAR, 162, 94, 53, 14
     LTEXT            "上級者向けスタートメニューのオプション(&T):", IDC_STATIC, 8, 129, 150, 8
     CONTROL          "StartMenuSe&ttings", IDC_CLASSICSTART_SETTINGS, "SysTreeView32", TVS_HASBUTTONS | WS_BORDER, 8, 139, 218, 72, WS_EX_CLIENTEDGE
@@ -174,7 +174,7 @@ BEGIN
     LTEXT            "スタートメニューの項目(&M):", IDC_STATIC, 7, 53, 238, 8
     CONTROL          "StartMenuSe&ttings", IDC_ITEMS, "SysTreeView32", WS_BORDER | 0x00000001, 7, 63, 238, 67, WS_EX_CLIENTEDGE
     GROUPBOX         "最近の文書 ", IDC_STATIC, 7, 133, 238, 56
-    LTEXT            "最近開いた文書への素早いアクセスのために、このオプションを選択して下さい。このリストをクリアしても文書を削除しません。", IDC_STATIC, 14, 144, 224, 21
+    LTEXT            "最近開いた文書への素早いアクセスのために、このオプションを選択してください。このリストをクリアしても文書を削除しません。", IDC_STATIC, 14, 144, 224, 21
     AUTOCHECKBOX     "最近開いた文書をリストアップする(&R)", IDC_RECENTLY, 14, 168, 147, 10
     PUSHBUTTON       "リストのクリア(&C)", IDC_CLEAR, 170, 168, 70, 14
 END

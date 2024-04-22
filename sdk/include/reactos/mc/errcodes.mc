@@ -823,7 +823,7 @@ Language=Romanian
 Calea în rețea nu a fost găsită. Asigurați-vă că este corectă și că destinația în rețea este disponibilă fizic. Dacă veți întâmpina această problemă în continuare, contactați administratorul de rețea.
 .
 Language=Japanese
-ReactOSでネットワークパスが見つかりません。ネットワークパスが正しく、宛先コンピュータがビジー状態または電源オフになっていないことを確認します。それでもReactOSがネットワークパスを見つけられない場合は、ネットワーク管理者に連絡してください。
+ReactOS でネットワークパスが見つかりません。ネットワークパスが正しく、宛先コンピュータがビジー状態または電源オフになっていないことを確認します。それでも ReactOS がネットワークパスを見つけられない場合は、ネットワーク管理者に連絡してください。
 .
 
 MessageId=52
@@ -4668,7 +4668,7 @@ Language=Romanian
 The NtCreateFile API failed. This error should never be returned to an application, it is a place holder for the Windows Lan Manager Redirector to use in its internal error mapping routines.
 .
 Language=Japanese
-NtCreateFile APIが失敗しました。このエラーはReactOS Lan Manager Redirectorが内部のエラーマップルーチンで使用するプレースホルダーです。
+NtCreateFile APIが失敗しました。このエラーは ReactOS Lan Manager Redirector が内部のエラーマップルーチンで使用するプレースホルダーです。
 .
 
 MessageId=571
@@ -5695,7 +5695,7 @@ Language=Romanian
 The evaluation period for this installation of Windows has expired. This system will shutdown in 1 hour. To restore access to this installation of Windows, please upgrade this installation using a licensed distribution of this product.
 .
 Language=Japanese
-このReactOSインストールの評価期間が終了しました。このシステムは1時間後にシャットダウンされます。ReactOSのこのインストールへのアクセスを回復するには、この製品のライセンス配布を使用してこのインストールをアップグレードしてください。
+この ReactOS インストールの評価期間が終了しました。このシステムは1時間後にシャットダウンされます。ReactOS のこのインストールへのアクセスを回復するには、この製品のライセンス配布を使用してこのインストールをアップグレードしてください。
 .
 
 MessageId=623
@@ -6097,7 +6097,7 @@ Language=Romanian
 This version of ReactOS is not compatible with the behavior version of directory forest, domain or domain controller.
 .
 Language=Japanese
-このバージョンのReactOSは、ディレクトリ フォレスト、ドメイン、またはドメイン コントローラの動作バージョンと互換性がありません。
+このバージョンの ReactOS は、ディレクトリ フォレスト、ドメイン、またはドメイン コントローラの動作バージョンと互換性がありません。
 .
 
 MessageId=644
@@ -6357,7 +6357,7 @@ Language=Romanian
 The %hs display driver has stopped working normally. Save your work and reboot the system to restore full display functionality. The next time you reboot the machine a dialog will be displayed giving you a chance to report this failure to Microsoft.
 .
 Language=Japanese
-ディスプレイドライバ%hsが正常に動作しなくなりました。作業を保存してシステムを再起動し、ディスプレイ機能を完全に回復してください。次にマシンを再起動するとダイアログが表示され、ReactOSにこの障害を報告することができます。
+ディスプレイドライバ%hsが正常に動作しなくなりました。作業を保存してシステムを再起動し、ディスプレイ機能を完全に回復してください。次にマシンを再起動するとダイアログが表示され、ReactOS にこの障害を報告することができます。
 .
 
 MessageId=665
@@ -12442,7 +12442,7 @@ Language=Romanian
 ReactOS cannot open this program since it has been disabled.
 .
 Language=Japanese
-ReactOSが無効になっているため、このプログラムを開くことができません。
+ReactOS が無効になっているため、このプログラムを開くことができません。
 .
 
 MessageId=1278
@@ -16423,7 +16423,7 @@ Language=Romanian
 This installation package cannot be installed by the ReactOS Installer service. You must install a ReactOS service pack that contains a newer version of the ReactOS Installer service.
 .
 Language=Japanese
-このインストール パッケージは ReactOS Installer サービスではインストールできません。新しいバージョンのReactOS Installerサービスが含まれているReactOSサービスパックをインストールする必要があります。
+このインストール パッケージは ReactOS Installer サービスではインストールできません。新しいバージョンの ReactOS Installer サービスが含まれている ReactOS サービスパックをインストールする必要があります。
 .
 
 MessageId=1614
@@ -25105,7 +25105,7 @@ Language=Romanian
 This computer cannot be made a member of a cluster because it does not have the correct version of Windows installed.
 .
 Language=Japanese
-このコンピュータには正しいバージョンのReactOSがインストールされていないため、クラスタのメンバにできません。
+このコンピュータには正しいバージョンの ReactOS がインストールされていないため、クラスタのメンバにできません。
 .
 
 MessageId=5900
@@ -25205,7 +25205,7 @@ Language=Romanian
 One or more nodes in the cluster are running a version of Windows that does not support this operation.
 .
 Language=Japanese
-クラスタ内の1つまたは複数のノードで、この操作をサポートしないバージョンのReactOSが実行されています。
+クラスタ内の1つまたは複数のノードで、この操作をサポートしないバージョンの ReactOS が実行されています。
 .
 
 MessageId=5905

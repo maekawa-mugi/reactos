@@ -7,7 +7,7 @@ FONT 9, "MS UI Gothic"
 BEGIN
     GROUPBOX "標準と形式", -1, 5, 5, 234, 162
     LTEXT "このオプションは、いくつかのプログラムによる数値、通貨、日付、時間の書式設定に影響します。", -1, 14, 17, 220, 25
-    LTEXT "プロパティに一致する項目を選択するか、あなた自身の形式を選ぶためにカスタマイズをクリックして下さい(&S):", -1, 14, 37, 220, 22
+    LTEXT "プロパティに一致する項目を選択するか、あなた自身の形式を選ぶためにカスタマイズをクリックしてください(&S):", -1, 14, 37, 220, 22
     COMBOBOX IDC_LANGUAGELIST, 14, 56, 160, 160, CBS_DROPDOWNLIST | CBS_NOINTEGRALHEIGHT | CBS_SORT | WS_CHILD | WS_VISIBLE | WS_TABSTOP | WS_VSCROLL
     PUSHBUTTON "カスタマイズ(&Z)...", IDC_SETUP_BUTTON, 178, 56, 52, 13
     LTEXT "サンプル", -1, 14, 73, 70, 10
@@ -22,7 +22,7 @@ BEGIN
     EDITTEXT IDC_SHORTTIMESAMPLE_EDIT, 89, 131, 140, 12, ES_READONLY | WS_CHILD | WS_VISIBLE | WS_GROUP | NOT WS_TABSTOP
     EDITTEXT IDC_FULLTIMESAMPLE_EDIT, 89, 146, 140, 12, ES_READONLY | WS_CHILD | WS_VISIBLE | WS_GROUP | NOT WS_TABSTOP
     GROUPBOX "場所", -1, 5, 172, 234, 55
-    LTEXT "いくつかのサービスがあなたに地域情報（例えばニュースや天気情報）を提供できるようにあなたの場所をセットアップして下さい(&T)", -1, 14, 184, 210, 24
+    LTEXT "いくつかのサービスがあなたに地域情報（例えばニュースや天気情報）を提供できるようにあなたの場所をセットアップしてください(&T)", -1, 14, 184, 210, 24
     COMBOBOX IDC_LOCATION_COMBO, 14, 207, 217, 160, CBS_DROPDOWNLIST | CBS_NOINTEGRALHEIGHT | CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP | CBS_SORT
 END
 
@@ -32,10 +32,10 @@ CAPTION "言語"
 FONT 9, "MS UI Gothic"
 BEGIN
     GROUPBOX "テキスト入力言語とサービス", -1, 5, 5, 234, 52
-    LTEXT "言語あるいはテキスト入力方式（IME）を表示または変更するには""詳細...""を押して下さい。", -1, 12, 15, 220, 18
+    LTEXT "言語あるいはテキスト入力方式（IME）を表示または変更するには""詳細...""を押してください。", -1, 12, 15, 220, 18
     PUSHBUTTON "詳細(&T)...", IDC_DETAIL_BUTTON, 177, 34, 54, 14
     GROUPBOX "追加的な言語サポート", -1, 5, 62, 234, 82
-    LTEXT "ほとんどの言語はデフォルトでインストール済みです。追加的な言語をインストールするには、次の適切なチェックボックスを選択して下さい。", -1, 12, 72, 220, 18
+    LTEXT "ほとんどの言語はデフォルトでインストール済みです。追加的な言語をインストールするには、次の適切なチェックボックスを選択してください。", -1, 12, 72, 220, 18
     AUTOCHECKBOX "複雑なスクリプトや右から左読みの言語をインストールする(&N)", IDC_INST_FILES_FOR_RTOL_LANG, 12, 92, 215, 22, BS_MULTILINE | BS_TOP
     AUTOCHECKBOX "東アジア言語のファイルをインストールする(&S)", IDC_INST_FILES_FOR_ASIAN, 12, 114, 180, 22, BS_MULTILINE | BS_TOP
 END

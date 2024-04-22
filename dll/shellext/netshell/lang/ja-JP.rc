@@ -167,7 +167,7 @@ BEGIN
     IDS_NETWORKSETTINGSTITLE "ネットワークの設定"
     IDS_NETWORKSETTINGSSUBTITLE "別のネットワーク、別のコンピュータ、そしてインターネットに接続するために使うネットワーク ソフトウェアをインストールします。"
     IDS_NETWORKCOMPONENTTITLE "ネットワーク コンポーネント"
-    IDS_NETWORKCOMPONENTSUBTITLE "あなたのコンピュータで使われるネットワーク コンポーネントを決定して下さい。新しいコンポーネントを追加するには、インストールをクリックして下さい。"
+    IDS_NETWORKCOMPONENTSUBTITLE "あなたのコンピュータで使われるネットワーク コンポーネントを決定してください。新しいコンポーネントを追加するには、インストールをクリックしてください。"
     IDS_NETWORKDOMAINTITLE "ワークグループかコンピュータ ドメイン"
     IDS_NETWORKDOMAINSUBTITLE "ドメインは、ネットワーク管理者によって定義された、コンピュータのグループです。ワークグループは、同じワークグループの名前を共有するコンピュータのグループです。"
     IDS_REACTOS_SETUP "ReactOS セットアップ"

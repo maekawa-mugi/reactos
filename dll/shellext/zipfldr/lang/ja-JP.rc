@@ -16,7 +16,7 @@ BEGIN
     EDITTEXT        IDC_DIRECTORY,86,24,157,12,ES_AUTOHSCROLL
     PUSHBUTTON      "参照...",IDC_BROWSE,189,42,54,14
     PUSHBUTTON      "パスワード",IDC_PASSWORD,189,66,54,14
-    LTEXT           "展開するには「次へ」をクリックして下さい",IDC_STATUSTEXT,86,93,156,8
+    LTEXT           "展開するには「次へ」をクリックしてください",IDC_STATUSTEXT,86,93,156,8
     CONTROL         "",IDC_PROGRESS,"msctls_progress32",WS_BORDER,86,105,157,6
     CONTROL         IDB_ZIPFLDR,-1,"STATIC",SS_BITMAP | WS_CHILD | WS_VISIBLE,0,0,78,138
 END
@@ -29,7 +29,7 @@ BEGIN
     LTEXT           "ファイルは次のディレクトリに展開されました:",IDC_STATIC,86,12,157,18
     LTEXT           "%s",IDC_DESTDIR,86,36,157,8
     CONTROL         "展開したファイルを表示",IDC_SHOW_EXTRACTED,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,86,66,156,10
-    LTEXT           "完了をクリックして下さい。",IDC_STATIC,86,84,153,8
+    LTEXT           "完了をクリックしてください。",IDC_STATIC,86,84,153,8
     CONTROL         IDB_ZIPFLDR,-1,"STATIC",SS_BITMAP | WS_CHILD | WS_VISIBLE,0,0,78,138
 END
 
@@ -89,7 +89,7 @@ BEGIN
 
     IDS_OVERWRITEFILE_TEXT "'%1'という名前のファイルがフォルダ内に既に存在します。\n置き換えしますか?"
     IDS_PASSWORD_FILE_TEXT "ファイル '%1' はパスワードで保護されています。パスワードを入力下さい。"
-    IDS_PASSWORD_ZIP_TEXT "この zip ファイルを展開するときに使うパスワードを指定して下さい。"
+    IDS_PASSWORD_ZIP_TEXT "この zip ファイルを展開するときに使うパスワードを指定してください。"
 
     IDS_MENUITEM "すべて展開(&A)..."
     IDS_HELPTEXT "フォルダ内容の展開"

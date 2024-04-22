@@ -153,9 +153,9 @@ BEGIN
     STRING_ALL_FILES "すべてのファイル (*.*)"
     STRING_TEXT_FILES_TXT "テキスト ファイル (*.txt)"
     STRING_TOOLARGE "ファイル '%s' のサイズは大きすぎるため、メモ帳では編集できません。\n\
-別のエディタを使用して下さい。"
+別のエディタを使用してください。"
     STRING_NOTEXT "何も入力されていません。\
-\n何か入力してから実行して下さい。"
+\n何か入力してから実行してください。"
     STRING_DOESNOTEXIST "ファイル '%s'\nは存在しません\n\n\
 新しいファイルを作成しますか?"
     STRING_NOTSAVED "ファイル '%s'\nは変更されています\n\n\
@@ -174,7 +174,7 @@ BEGIN
     STRING_LF "Unix (LF)"
     STRING_CR "Mac (CR)"
     STRING_LINE_COLUMN "%d 行、%d 列"
-    STRING_PRINTERROR "ファイル '%s'を印刷できません。\n\nプリンタがオンになっていて、正しく設定されているか確認して下さい。"
+    STRING_PRINTERROR "ファイル '%s'を印刷できません。\n\nプリンタがオンになっていて、正しく設定されているか確認してください。"
     STRING_DEFAULTFONT "ＭＳ ゴシック" /* MS Gothic */
     STRING_LINE_NUMBER_OUT_OF_RANGE "指定された行番号は範囲外です。"
     STRING_NOWPRINTING "印刷中..."

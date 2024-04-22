@@ -69,7 +69,7 @@ STYLE DS_SHELLFONT | DS_MODALFRAME | WS_CAPTION
 CAPTION "Open URL"
 FONT 9, "MS UI Gothic"
 {
-    LTEXT "Internet Explorerで開きたいURLを指定して下さい。",-1, 35,5,160,25
+    LTEXT "Internet Explorer で開きたいURLを指定してください。",-1, 35,5,160,25
     LTEXT "開く:", -1, 5, 32, 30, 15
 #ifdef __REACTOS__
     ICON IDC_PAGEICO, IDC_PAGEICO, 2, 5, 21, 20, SS_ICON

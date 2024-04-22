@@ -7,7 +7,7 @@ FONT 9, "MS UI Gothic"
 BEGIN
     LTEXT "ReactOSセットアップ ウィザードへようこそ。", IDC_WELCOMETITLE, 115, 8, 195, 24
     LTEXT "このウィザードでは、ReactOS をコンピュータにインストールします。ReactOS を正しくセットアップするために、ユーザーとコンピュータに関する情報を集める必要があります。", IDC_STATIC, 115, 40, 195, 100
-    LTEXT "セットアップを続行するには [次へ] をクリックして下さい。", IDC_STATIC, 115, 169, 195, 17
+    LTEXT "セットアップを続行するには [次へ] をクリックしてください。", IDC_STATIC, 115, 169, 195, 17
 END
 
 IDD_ACKPAGE DIALOGEX 0, 0, 317, 145
@@ -19,7 +19,7 @@ BEGIN
     LISTBOX IDC_PROJECTS, 15, 30, 286, 75, LBS_NOSEL | LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | WS_VSCROLL
     LTEXT "ReactOS は GPL の下にライセンスされており、すべてまたは一部を再利用、 再配布する場合は GPL に従う必要があります。", IDC_STATIC, 15, 110, 227, 19
     PUSHBUTTON "GPLを表示(&V)...", IDC_VIEWGPL, 251, 110, 50, 19
-    LTEXT "セットアップを続行するには [次へ] をクリックして下さい。", IDC_STATIC, 15, 136, 195, 17
+    LTEXT "セットアップを続行するには [次へ] をクリックしてください。", IDC_STATIC, 15, 136, 195, 17
 END
 
 IDD_PRODUCT DIALOGEX 0, 0, 317, 143
@@ -42,7 +42,7 @@ CAPTION "ReactOS セットアップ"
 FONT 9, "MS UI Gothic"
 BEGIN
     ICON IDI_ICON2, IDC_STATIC, 21, 7, 20, 20
-    LTEXT "名前と会社名または組織名を入力して下さい。", IDC_STATIC, 54, 7, 242, 21
+    LTEXT "名前と会社名または組織名を入力してください。", IDC_STATIC, 54, 7, 242, 21
     LTEXT "名前(&M):", IDC_STATIC, 54, 37, 44, 8
     EDITTEXT IDC_OWNERNAME, 132, 35, 163, 14, WS_VISIBLE | WS_TABSTOP | ES_AUTOHSCROLL
     LTEXT "組織名(&O):", IDC_STATIC, 54, 57, 44, 8
@@ -55,12 +55,12 @@ CAPTION "ReactOS セットアップ"
 FONT 9, "MS UI Gothic"
 BEGIN
     ICON IDI_ICON1, IDC_STATIC, 21, 7, 20, 20
-    LTEXT "コンピュータ名を半角 15 文字以内で入力して下さい。コンピュータがネットワーク上にある場合は、名前が重複しないようにして下さい。", IDC_STATIC, 54, 7, 241, 24
+    LTEXT "コンピュータ名を半角 15 文字以内で入力してください。コンピュータがネットワーク上にある場合は、名前が重複しないようにしてください。", IDC_STATIC, 54, 7, 241, 24
     LTEXT "コンピュータ名(&C):", IDC_STATIC, 54, 38, 75, 8
     EDITTEXT IDC_COMPUTERNAME, 156, 35, 139, 14, WS_VISIBLE | WS_TABSTOP | ES_AUTOHSCROLL | ES_UPPERCASE
     ICON IDI_ICON5, IDC_STATIC, 21, 57, 20, 20
     LTEXT "Administrator と呼ばれるユーザー アカウントを作成します。コンピュータにフルアクセスが必要なとき、このアカウントを使用します。", IDC_STATIC, 54, 57, 241, 25
-    LTEXT "Administrator のパスワードを半角 127 文字以内で入力して下さい。", IDC_STATIC, 54, 87, 241, 8
+    LTEXT "Administrator のパスワードを半角 127 文字以内で入力してください。", IDC_STATIC, 54, 87, 241, 8
     LTEXT "Administrator のパスワード(&A):", IDC_STATIC, 54, 104, 99, 8
     EDITTEXT IDC_ADMINPASSWORD1, 156, 101, 139, 14, WS_VISIBLE | WS_TABSTOP | ES_PASSWORD
     LTEXT "パスワードの確認入力(&O):", IDC_STATIC, 54, 123, 99, 8
@@ -73,7 +73,7 @@ CAPTION "ReactOS セットアップ"
 FONT 9, "MS UI Gothic"
 BEGIN
     ICON IDI_ICON4, IDC_STATIC, 21, 7, 20, 20
-    LTEXT "システムのロケールを、アプリケーションで使用したい言語に設定して下さい。ユーザー ロケールは、数値、通貨、日付の表示方法を制御します。", IDC_STATIC, 53, 7, 253, 20
+    LTEXT "システムのロケールを、アプリケーションで使用したい言語に設定してください。ユーザー ロケールは、数値、通貨、日付の表示方法を制御します。", IDC_STATIC, 53, 7, 253, 20
     LTEXT "%s", IDC_LOCALETEXT, 53, 29, 250, 16
     LTEXT "システム、ユーザー ロケール設定変更には [カスタマイズ] をクリックします。", IDC_STATIC, 53, 50, 166, 25
     PUSHBUTTON "カスタマイズ(&C)...", IDC_CUSTOMLOCALE, 220, 52, 80, 14
@@ -127,7 +127,7 @@ BEGIN
     LTEXT "ReactOS セットアップ ウィザードの完了", IDC_FINISHTITLE, 115, 8, 195, 24
     LTEXT "ReactOS セットアップが正常に完了しました。\n\n[完了] をクリックすると、コンピュータを再起動します。", IDC_STATIC, 115, 40, 195, 100
     CONTROL "", IDC_RESTART_PROGRESS, "msctls_progress32", PBS_SMOOTH | WS_CHILD | WS_VISIBLE | WS_BORDER, 115, 138, 188, 12
-    LTEXT "ドライブに CD がある場合は取り出して下さい。再起動するには [完了] をクリックして下さい。", IDC_STATIC, 115, 169, 195, 17
+    LTEXT "ドライブに CD がある場合は取り出してください。再起動するには [完了] をクリックしてください。", IDC_STATIC, 115, 169, 195, 17
 END
 
 IDD_GPL DIALOGEX 0, 0, 333, 230
@@ -181,7 +181,7 @@ BEGIN
     IDS_LOCALETEXT "標準と形式は %s に、場所は %s に設定されています。"
     IDS_LAYOUTTEXT "デフォルトのテキスト入力言語と方法は次のとおりです: %s キーボード レイアウト"
     IDS_DATETIMETITLE "日付と時刻"
-    IDS_DATETIMESUBTITLE "コンピュータの日付と時刻を正しく設定して下さい。"
+    IDS_DATETIMESUBTITLE "コンピュータの日付と時刻を正しく設定してください。"
     IDS_PROCESSTITLE "インストールを完了中"
     IDS_PROCESSSUBTITLE "セットアップの最終ステップが完了するまでお待ちください。"
     IDS_THEMESELECTIONTITLE "外観"
@@ -213,9 +213,9 @@ BEGIN
     IDS_WZD_NAME "セットアップはユーザ名が入力されるまで続行できません。"
     IDS_WZD_SETCOMPUTERNAME "コンピュータ名の設定に失敗しました。"
     IDS_WZD_COMPUTERNAME "セットアップはコンピュータ名が入力されるまで続行できません。"
-    IDS_WZD_PASSWORDEMPTY "パスワードを入力して下さい！"
-    IDS_WZD_PASSWORDMATCH "入力されたパスワードが一致しません。もう一度望ましいパスワードを入力して下さい。"
-    IDS_WZD_PASSWORDCHAR "入力されたパスワードには無効な文字が含まれています。有効なパスワードを入力して下さい。"
+    IDS_WZD_PASSWORDEMPTY "パスワードを入力してください！"
+    IDS_WZD_PASSWORDMATCH "入力されたパスワードが一致しません。もう一度望ましいパスワードを入力してください。"
+    IDS_WZD_PASSWORDCHAR "入力されたパスワードには無効な文字が含まれています。有効なパスワードを入力してください。"
     IDS_WZD_LOCALTIME "セットアップはローカル タイムを設定できませんでした。"
 END
 

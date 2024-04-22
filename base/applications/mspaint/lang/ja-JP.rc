@@ -260,7 +260,7 @@ BEGIN
     IDS_ALLFILES "すべてのファイル"
     IDS_ALLPICTUREFILES "すべての画像ファイル"
     IDS_FILESIZE "%d バイト"
-    IDS_INTNUMBERS "整数だけを入力して下さい!"
+    IDS_INTNUMBERS "整数だけを入力してください!"
     IDS_PERCENTAGE "百分率は 1 から 500 の間でなければなりません。"
     IDS_ANGLE "角度は -89 から 89 の間でなければなりません。"
     IDS_LOADERRORTEXT "ファイル %s は読み込めませんでした。"

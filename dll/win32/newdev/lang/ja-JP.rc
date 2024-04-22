@@ -93,5 +93,5 @@ BEGIN
     IDS_CHSOURCE_TITLE "検索対象とインストール オプションを選んで下さい。"
     IDS_SEARCHDRV_TITLE "検索中..."
     IDS_INSTALLDRV_TITLE "インストール中..."
-    IDS_BROWSE_FOR_FOLDER_TITLE "このハードウェアに対する適切なドライバを含むフォルダを選択して下さい。"
+    IDS_BROWSE_FOR_FOLDER_TITLE "このハードウェアに対する適切なドライバを含むフォルダを選択してください。"
 END

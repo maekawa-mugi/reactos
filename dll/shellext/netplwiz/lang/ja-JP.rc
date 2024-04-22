@@ -5,7 +5,7 @@ STYLE DS_SHELLFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
 CAPTION "ネットワーク ドライブの接続を切る"
 FONT 9, "MS UI Gothic"
 BEGIN
-    LTEXT "接続を切りたいネットワーク ドライブを選択して OK をクリックして下さい。", -1, 7, 7, 286, 8
+    LTEXT "接続を切りたいネットワーク ドライブを選択して OK をクリックしてください。", -1, 7, 7, 286, 8
     LTEXT "ネットワーク ドライブ (&N):", -1, 7, 23, 286, 8
     CONTROL "", IDC_CONNECTEDDRIVELIST, "SysListView32", LVS_REPORT | LVS_SHOWSELALWAYS | LVS_SORTASCENDING | LVS_SINGLESEL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 7, 31, 286, 140
     PUSHBUTTON "OK", ID_OK, 189, 179, 50, 14

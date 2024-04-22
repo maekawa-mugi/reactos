@@ -25,9 +25,9 @@ STRINGTABLE
     IDS_TITLEFORMAT     "%s に接続"
     IDS_MESSAGEFORMAT   "%s に接続中"
     IDS_INCORRECTPASSWORDTITLE  "ログオンに失敗"
-    IDS_INCORRECTPASSWORD       "ユーザー名とパスワードが\n正しいことを確認して下さい。"
+    IDS_INCORRECTPASSWORD       "ユーザー名とパスワードが\n正しいことを確認してください。"
     IDS_CAPSLOCKONTITLE "Caps Lockはオン"
-    IDS_CAPSLOCKON      "Caps Lockがオンのため、パスワードの入力が間違っています。\n\nパスワードの入力の前にキーボードのCaps Lockキーを\n押してオフにして下さい。"
+    IDS_CAPSLOCKON      "Caps Lockがオンのため、パスワードの入力が間違っています。\n\nパスワードの入力の前にキーボードのCaps Lockキーを\n押してオフにしてください。"
 }
 
 IDD_CREDDIALOG DIALOGEX  0, 0, 213, 149

@@ -68,7 +68,7 @@ BEGIN
     ICON IDI_LOCKICON, IDC_STATIC, 7, 59, 20, 20
     LTEXT "このコンピュータは使用中でロックされています。", IDC_STATIC, 37, 61, 231, 8
     LTEXT "<メッセージ>", IDC_LOCKED_MESSAGE, 29, 80, 221, 26
-    LTEXT "Ctrl-Alt-Delキー を押してアンロックして下さい。", IDC_STATIC, 37, 106, 241, 8
+    LTEXT "Ctrl-Alt-Delキー を押してアンロックしてください。", IDC_STATIC, 37, 106, 241, 8
 END
 
 IDD_UNLOCK DIALOGEX 0, 0, 236, 179
@@ -143,17 +143,17 @@ END
 IDD_SHUTDOWN_REASON DIALOGEX 0, 0, 236, 297
 STYLE DS_SHELLFONT | DS_MODALFRAME | DS_CENTER | WS_POPUPWINDOW | WS_CAPTION
 // STYLE NOT WS_VISIBLE | DS_CENTER | DS_MODALFRAME | DS_SHELLFONT | WS_BORDER | WS_CAPTION | WS_DLGFRAME | WS_POPUP
-CAPTION "ReactOSのシャットダウン"
+CAPTION "ReactOS のシャットダウン"
 FONT 9,"MS UI Gothic", 400, 0, 1
 BEGIN
     CONTROL IDI_ROSLOGO, IDC_ROSLOGO, "Static", SS_BITMAP, 0, 0, 236, 54
     CONTROL IDI_BAR, IDC_BAR, "Static", SS_BITMAP, 0, 35, 236, 4
     ICON IDI_SHUTDOWN, IDC_STATIC, 9, 57, 21, 20, WS_GROUP
-    LTEXT "コンピュータの動作を選択して下さい(&W)", IDC_STATIC, 39, 57, 167, 10
+    LTEXT "コンピュータの動作を選択してください(&W)", IDC_STATIC, 39, 57, 167, 10
     COMBOBOX IDC_SHUTDOWN_ACTION, 39, 70, 190, 210, CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
     LTEXT "", IDC_SHUTDOWN_DESCRIPTION, 39, 93, 190, 27
     GROUPBOX "シャットダウン イベント追跡", IDC_STATIC, 9, 122, 257, 146
-    LTEXT "なぜシャットダウンしたいかを説明するオプションを選択して下さい。", IDC_STATIC, 39, 134, 190, 17
+    LTEXT "なぜシャットダウンしたいかを説明するオプションを選択してください。", IDC_STATIC, 39, 134, 190, 17
     LTEXT "オプション(&O):", IDC_STATIC, 39, 154, 80, 8
     AUTOCHECKBOX "&Planned", IDC_REASON_PLANNED, 182, 154, 47, 10
     COMBOBOX IDC_REASON_LIST, 39, 165, 190, 210, CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
@@ -224,19 +224,19 @@ BEGIN
     IDS_LOGONMSG "あなたは %s としてログオンしています。"
     IDS_LOGONDATE "ログオン日時: %s %s"
     IDS_COMPUTERLOCKED "コンピュータはロック中です"
-    IDS_LOCKEDWRONGPASSWORD "パスワードが間違っています。もう一度パスワードを入力して下さい。文字は大文字小文字に注意して下さい。"
+    IDS_LOCKEDWRONGPASSWORD "パスワードが間違っています。もう一度パスワードを入力してください。文字は大文字小文字に注意してください。"
     IDS_LOCKEDWRONGUSER "このコンピュータはロック中です。%s\\%s か、管理者のみが\nこのコンピュータをアンロックできます。"
     IDS_CHANGEPWDTITLE "パスワードの変更"
-    IDS_NONMATCHINGPASSWORDS "パスワードが合致しません。両方のテキストボックスに同じパスワードを入力して下さい。"
+    IDS_NONMATCHINGPASSWORDS "パスワードが合致しません。両方のテキストボックスに同じパスワードを入力してください。"
     IDS_PASSWORDCHANGED "パスワードは変更されました。"
     IDS_LOGONTITLE "ログオン メッセージ"
-    IDS_LOGONWRONGUSERORPWD "あなたはログオンできませんでした。ユーザー名とドメインが正しいか確認し、パスワードをもう一度入力して下さい。文字は大文字小文字に注意して下さい。"
+    IDS_LOGONWRONGUSERORPWD "あなたはログオンできませんでした。ユーザー名とドメインが正しいか確認し、パスワードをもう一度入力してください。文字は大文字小文字に注意してください。"
     IDS_LOGONUSERDISABLED "あなたのアカウントは無効化されました。システム管理者に問い合わせて下さい。"
     IDS_PASSWORDMUSTCHANGE "最初のログオンであなたのパスワードを変更する必要があります。"
     IDS_PASSWORDEXPIRED "パスワードは期限切れです。変更する必要があります。"
     IDS_ACCOUNTEXPIRED "アカウントは期限切れです。システム管理者に問い合わせて下さい。"
     IDS_ACCOUNTLOCKED "あなたのアカウントはロックされたので、ログオンできません。システム管理者に問い合わせて下さい。"
-    IDS_INVALIDLOGONHOURS "あなたのアカウントはこの時間のログオンを妨げる時間制限があります。あとでやり直して下さい。"
+    IDS_INVALIDLOGONHOURS "あなたのアカウントはこの時間のログオンを妨げる時間制限があります。あとでやり直してください。"
     IDS_INVALIDWORKSTATION "あなたのアカウントはこのコンピュータで使えないように設定されています。他のコンピュータをお使い下さい。"
     IDS_ACCOUNTRESTRICTION "アカウント制限のため、あなたはログオンできません。"
     IDS_EMERGENCYLOGOFFTITLE "ReactOS のログオフ"
